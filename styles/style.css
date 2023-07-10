@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-container {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower-image {
+    width: 400px;
+    height: 600px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.rose {
+    margin-top: 90px;
+}
+
+.shop-intro {
+    width: 50%;
+
+}
+
+.shop-heading {
+    color: #272727;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.btn1 {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background: #E55473;
+    color: white;
+    border: 0px;
+
+}
+.text-small{font-size: small;}
