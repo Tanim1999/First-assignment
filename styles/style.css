@@ -2,6 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+.light-text{
+  color: rgba(39, 39, 39, 0.60);
+}
 
 .header-container {
     background-color: rgba(229, 84, 115, 0.10);
@@ -45,11 +52,27 @@ img {
     background: #E55473;
     color: white;
     border: 0px;
+    cursor: pointer;
 
 }
 
 .text-small {
     font-size: small;
+}
+/* my created section */
+.special-offer{
+    height: 100vh;
+    background-color: #E554730D;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+}
+.special-offer-flower{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 25vh;
 }
 
 /* Our Featured Flower Section */
@@ -246,7 +269,7 @@ img {
 }
 /* footer */
 .footer-container{
-    height: 30vh;
+    height: 35vh;
     display: flex;
     justify-content: center;
     align-items: center;
