@@ -147,6 +147,7 @@ img {
     margin-left: 304px;
     align-items: center;
     font-size: 10px;
+    text-align: center;
 
 }
 .benefit-img{
@@ -156,21 +157,23 @@ img {
     margin-right: 20px;
 
 }
+.benefits-img-container p{
+    margin-top: 8px;
+}
+/* hot deal section */
 
-/*.benefits-title{
-
+.hot-deal{
+    height: 80vh;
+    background-color: #E554730D;
     display: flex;
     justify-content: center;
-    font-size: small;
-    gap: 50px; */
+    gap: 50px;
+    align-items: center;
 
 }
-
-/* .benefit-container{
-    width: 80%;
-height: 20%;
-border-radius: 5px;
-background-color:  rgba(39, 39, 39, 0.05);
-
-
-} */
+.hot-deal-flower{
+    height:50vh;
+}
+.sale-span{
+    color: #E55473;
+}
