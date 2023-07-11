@@ -187,7 +187,7 @@ img {
 
 /* insagram section */
 .instagram-section {
-    height: 100vh;
+    height: 65vh;
 }
 
 .Insta-descrip {
@@ -204,15 +204,15 @@ img {
 }
 
 .insta-img {
-    height: 50vh;
-    width: 40vh;
+    height: 35vh;
+    width: 30vh;
 
 
 }
 
 /* new section: get the latest deals */
 .latest-deals-section {
-    height: 80vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,12 +220,13 @@ img {
 }
 
 .latest-deals {
-    text-align: center;
-    height: 40vh;
-    width: 170vh;
-
+    display: flex;
     justify-content: center;
-    padding-top: 20vh;
+    text-align: center;
+    padding-top: 5vh;
+    height: 30vh;
+    width: 128vh;
+    
     background-image: url("../Flower Asset/Rectangle 9.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -242,5 +243,5 @@ img {
 
 #email {
     height: 35px;
-    width: 500px;
+    width: 350px;
 }
