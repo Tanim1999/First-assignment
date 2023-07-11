@@ -130,18 +130,19 @@ img {
     gap: 120px;
     margin-top: 20px;
 }
+
 /* new section : benefits*/
-.optional-section{
+.optional-section {
     height: 40vh;
 }
 
 .benefits-img-container {
-    
+
     width: 52%;
     height: 30vh;
     border-radius: 5px;
     background-color: rgba(39, 39, 39, 0.05);
-     display: flex;
+    display: flex;
     justify-content: center;
     gap: 80px;
     margin-left: 304px;
@@ -150,30 +151,96 @@ img {
     text-align: center;
 
 }
-.benefit-img{
-    
+
+.benefit-img {
+
     height: 55px;
     width: 55px;
     margin-right: 20px;
 
 }
-.benefits-img-container p{
+
+.benefits-img-container p {
     margin-top: 8px;
 }
+
 /* hot deal section */
 
-.hot-deal{
-    height: 80vh;
+.hot-deal {
+    height: 60vh;
     background-color: #E554730D;
     display: flex;
     justify-content: center;
     gap: 50px;
     align-items: center;
+    text-align: center;
 
 }
-.hot-deal-flower{
-    height:50vh;
+
+.hot-deal-flower {
+    height: 50vh;
 }
-.sale-span{
+
+.sale-span {
     color: #E55473;
+}
+
+/* insagram section */
+.instagram-section {
+    height: 100vh;
+}
+
+.Insta-descrip {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.insta-img-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.insta-img {
+    height: 50vh;
+    width: 40vh;
+
+
+}
+
+/* new section: get the latest deals */
+.latest-deals-section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.latest-deals {
+    text-align: center;
+    height: 40vh;
+    width: 170vh;
+
+    justify-content: center;
+    padding-top: 20vh;
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+}
+
+#email {
+    height: 35px;
+    width: 500px;
 }
