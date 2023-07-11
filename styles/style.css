@@ -123,9 +123,54 @@ img {
     position: relative;
     margin-top: 15px;
 }
-.feat-flower-title{
+
+.feat-flower-title {
     display: flex;
     justify-content: center;
     gap: 120px;
     margin-top: 20px;
 }
+/* new section : benefits*/
+.optional-section{
+    height: 40vh;
+}
+
+.benefits-img-container {
+    
+    width: 52%;
+    height: 30vh;
+    border-radius: 5px;
+    background-color: rgba(39, 39, 39, 0.05);
+     display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-left: 304px;
+    align-items: center;
+    font-size: 10px;
+
+}
+.benefit-img{
+    
+    height: 55px;
+    width: 55px;
+    margin-right: 20px;
+
+}
+
+/*.benefits-title{
+
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    gap: 50px; */
+
+}
+
+/* .benefit-container{
+    width: 80%;
+height: 20%;
+border-radius: 5px;
+background-color:  rgba(39, 39, 39, 0.05);
+
+
+} */
