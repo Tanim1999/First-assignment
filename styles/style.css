@@ -92,7 +92,8 @@ img {
 
 
 }
-.flower-bouquet{
+
+.flower-bouquet {
     position: relative;
     width: 210px;
     height: 328px;
@@ -100,10 +101,12 @@ img {
     text-align: center;
     border-radius: 300px 300px 0px 0px;
 }
-.flower-bouquet-img{
+
+.flower-bouquet-img {
     position: relative;
-    margin-top: 120px; 
+    margin-top: 70px;
 }
+
 
 
 
@@ -115,7 +118,14 @@ img {
     text-align: center;
     border-radius: 300px 300px 0px 0px;
 }
-.yellow-flower-img{
+
+.yellow-flower-img {
     position: relative;
     margin-top: 15px;
+}
+.feat-flower-title{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 20px;
 }
